@@ -17,7 +17,7 @@ from sklearn.svm import SVC
 from sklearn import tree
 
 path = os.getcwd()
-isAllFeatures = False
+isAllFeatures = True
 if isAllFeatures == True:
   outfile = "all_features"#feature_selection
 else:
